@@ -6,7 +6,8 @@
 </template>
 
 <script lang="ts">
-import { Component, Vue } from 'vue-property-decorator';
+import Vue from "vue";
+import Component from "vue-class-component";
 import HelloWorld from '../components/HelloWorld.vue';
 
 @Component({
@@ -15,35 +16,5 @@ import HelloWorld from '../components/HelloWorld.vue';
   },
 })
 /** Home Component */
-export default class Home extends Vue {
-  /*
-  // Props
-  @Prop()
-  readonly prop: string = 'prop';
-
-  // Model and Data
-  data: string | null = null;
-
-  // Computed
-  get computed(): string {
-    return this.$store.getters.computed;
-  }
-
-  // Watch
-  @Watch('$route', { immediate: true })
-  onRouteChanged(): void {
-    // ...
-  }
-
-  // created or mounted etc.
-  created(): void {
-    // ...
-  }
-
-  // Methods
-  methods(): string {
-    return 'method';
-  }
-  */
-}
+export default class Home extends Vue {}
 </script>

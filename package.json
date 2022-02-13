@@ -2,7 +2,7 @@
   "name": "vite-vue2-ts-starter",
   "private": true,
   "version": "0.0.1",
-  "description": "Vue2 SRR TypeScript Startar project for Vite.",
+  "description": "Vue2 SRR TS Starter project for Vite.",
   "homepage": "https://github.com/fallemand/vue2-ssr-vite-ts",
   "repository": {
     "type": "git",
@@ -16,7 +16,7 @@
   },
   "license": "MIT",
   "scripts": {
-    "start:dev": "NODE_ENV=development node server",
+    "start": "NODE_ENV=development node server",
     "start:prod": "NODE_ENV=production node server",
     "build": "npm run build:client && npm run build:server",
     "build:client": "vite build --outDir dist/client --ssrManifest",
@@ -27,7 +27,6 @@
     "serve-static": "^1.14.2",
     "vue": "^2.6.14",
     "vue-class-component": "^7.2.6",
-    "vue-property-decorator": "^9.1.2",
     "vue-router": "^3.5.3",
     "vue-server-renderer": "^2.6.14",
     "vuex": "^3.6.2"
