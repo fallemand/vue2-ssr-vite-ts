@@ -18,3 +18,9 @@ import HelloWorld from '../components/HelloWorld.vue';
 /** Home Component */
 export default class Home extends Vue {}
 </script>
+
+<style>
+.home {
+  color: red;
+}
+</style>
