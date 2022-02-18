@@ -1,7 +1,7 @@
 # Vite + SSR + Vue 2 + TypeScript
 
 Example project using `vue-server-renderer`.  
-**WIP:** CSS modules aren't being loaded in prod SSR (disable JS to try).
+**WIP:** The specific page modules (JS & CSS) aren't being loaded in prod SSR (disable JS to try).
 
 ### Development
 
